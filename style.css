@@ -1,0 +1,84 @@
+body {
+    margin: 0%;
+}
+
+.choice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-style: normal;;
+    height: 200px;
+    margin: 0%;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    font-family: "Moon Dance", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.line {
+    background-color: black;
+    height: 25px;
+}
+    
+img {
+    width: 200px;
+    height: 200px;
+} 
+
+.middle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    font-family: "Shafarik", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-style: normal;;
+    height: 200px;
+    margin: 0%;
+
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .title-container {
+        font-size: 75px;
+    }
+    .img {
+        width: 100px;
+        height: 100px;
+    }
+    .choice-container {
+        font-size: 20px;
+    }
+    .description {
+        font-size: 15px;
+    }
+}
